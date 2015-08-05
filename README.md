@@ -17,6 +17,6 @@ _The basic JHipster sample project, with all default options_
 
 _A standard JHipster sample project, with the Gradle build option_
 
-Website: [jhipster/jhipster-sample-app-gradle](https://github.com/jhipster/jhipster-sample-app-gradle)
-
-[![Build Status](https://drone.io/github.com/jhipster/jhipster-sample-app-gradle/status.png)](https://drone.io/github.com/jhipster/jhipster-sample-app-gradle/latest)
+| Website       | Java build    | JavaScript build |
+| ------------- | ------------- | ------------- |
+| [jhipster/jhipster-sample-app-gradle](https://github.com/jhipster/jhipster-sample-app-gradle)  | [![Java Build Status](https://drone.io/github.com/jhipster/jhipster-sample-app-gradle/status.png)](https://drone.io/github.com/jhipster/jhipster-sample-app-gradle/latest)  | [![JavaScript Build Status](https://travis-ci.org/jhipster/jhipster-sample-app-gradle.svg?branch=master)](https://travis-ci.org/jhipster/jhipster-sample-app-gradle)  |
