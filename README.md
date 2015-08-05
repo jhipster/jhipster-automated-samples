@@ -9,9 +9,9 @@ The sample projects are included here as Git submodules.
 
 _The basic JHipster sample project, with all default options_
 
-Website: [jhipster/jhipster-sample-app](https://github.com/jhipster/jhipster-sample-app)
-
-[![Build Status](https://drone.io/github.com/jhipster/jhipster-sample-app/status.png)](https://drone.io/github.com/jhipster/jhipster-sample-app/latest)
+| Website       | Java build    | JavaScript build |
+| ------------- | ------------- | ------------- |
+| [jhipster/jhipster-sample-app](https://github.com/jhipster/jhipster-sample-app)  | [![Java Build Status](https://drone.io/github.com/jhipster/jhipster-sample-app/status.png)](https://drone.io/github.com/jhipster/jhipster-sample-app/latest)  | [![JavaScript Build Status](https://travis-ci.org/jhipster/jhipster-sample-app.svg?branch=master)](https://travis-ci.org/jhipster/jhipster-sample-app)  |
 
 ## Gradle project
 
