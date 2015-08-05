@@ -1,6 +1,6 @@
-[submodule "jhipster-sample-app/jhipster-sample-app"]
-	path = jhipster-sample-app/jhipster-sample-app
+[submodule "samples/jhipster-sample-app"]
+	path = samples/jhipster-sample-app
 	url = https://github.com/jhipster/jhipster-sample-app.git
-[submodule "jhipster-sample-app-gradle/jhipster-sample-app-gradle"]
-	path = jhipster-sample-app-gradle/jhipster-sample-app-gradle
+[submodule "samples/jhipster-sample-app-gradle"]
+	path = samples/jhipster-sample-app-gradle
 	url = https://github.com/jhipster/jhipster-sample-app-gradle.git
