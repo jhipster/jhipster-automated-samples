@@ -76,9 +76,9 @@ git push
 cd ..
 
 echo "---------------------------------------------"
-echo "current project: jhipster-sample-dto"
+echo "current project: jhipster-sample-app-dto"
 echo "---------------------------------------------"
-cd jhipster-sample-dto
+cd jhipster-sample-app-dto
 yo jhipster --force
 yo jhipster:entity BankAccount --force
 yo jhipster:entity Label --force
@@ -89,9 +89,9 @@ git push
 cd ..
 
 echo "---------------------------------------------"
-echo "current project: jhipster-sample-elasticsearch"
+echo "current project: jhipster-sample-app-elasticsearch"
 echo "---------------------------------------------"
-cd jhipster-sample-elasticsearch
+cd jhipster-sample-app-elasticsearch
 yo jhipster --force
 yo jhipster:entity BankAccount --force
 yo jhipster:entity Label --force
@@ -115,9 +115,9 @@ git push
 cd ..
 
 echo "---------------------------------------------"
-echo "current project: jhipster-sample-nocache"
+echo "current project: jhipster-sample-app-nocache"
 echo "---------------------------------------------"
-cd jhipster-sample-nocache
+cd jhipster-sample-app-nocache
 yo jhipster --force
 yo jhipster:entity BankAccount --force
 yo jhipster:entity Label --force
