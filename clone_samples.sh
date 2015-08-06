@@ -10,6 +10,7 @@ git clone https://github.com/jhipster/jhipster-sample-app-java7.git
 git clone https://github.com/jhipster/jhipster-sample-app-gulp.git
 git clone https://github.com/jhipster/jhipster-sample-app-mongodb.git
 git clone https://github.com/jhipster/jhipster-sample-app-cassandra.git
+git clone https://github.com/jhipster/jhipster-sample-app-dto.git
 git clone https://github.com/jhipster/jhipster-sample-app-elasticsearch.git
 git clone https://github.com/jhipster/jhipster-sample-app-hazelcast.git
 git clone https://github.com/jhipster/jhipster-sample-app-nocache.git

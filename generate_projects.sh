@@ -1,6 +1,6 @@
 #!/bin/sh
 echo "Starting to generate JHipster sample projects"
-cd samples
+cd ../samples
 
 echo "---------------------------------------------"
 echo "current project: jhipster-sample-app"
