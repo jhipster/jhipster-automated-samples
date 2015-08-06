@@ -14,7 +14,6 @@ git clone https://github.com/jhipster/jhipster-sample-app-dto.git
 git clone https://github.com/jhipster/jhipster-sample-app-elasticsearch.git
 git clone https://github.com/jhipster/jhipster-sample-app-hazelcast.git
 git clone https://github.com/jhipster/jhipster-sample-app-nocache.git
-git clone https://github.com/jhipster/jhipster-sample-app-compass.git
 git clone https://github.com/jhipster/jhipster-sample-app-noi18n.git
 git clone https://github.com/jhipster/jhipster-sample-app-websocket.git
 git clone https://github.com/jhipster/jhipster-sample-app-oauth2.git

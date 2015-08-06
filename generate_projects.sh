@@ -128,19 +128,9 @@ git push
 cd ..
 
 echo "---------------------------------------------"
-echo "current project: jhipster-sample-app-compass"
+echo "current project: jhipster-sample-app-noi18n"
 echo "---------------------------------------------"
-cd jhipster-sample-app-compass
-yo jhipster --force
-git add .
-git commit -m "automatic project update"
-git push
-cd ..
-
-echo "---------------------------------------------"
-echo "current project: jhipster-sample-noi18n"
-echo "---------------------------------------------"
-cd jhipster-sample-noi18n
+cd jhipster-sample-app-noi18n
 yo jhipster --force
 yo jhipster:entity BankAccount --force
 yo jhipster:entity Label --force
