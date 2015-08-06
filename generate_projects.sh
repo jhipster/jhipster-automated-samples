@@ -102,9 +102,9 @@ git push
 cd ..
 
 echo "---------------------------------------------"
-echo "current project: jhipster-sample-hazelcast"
+echo "current project: jhipster-sample-app-hazelcast"
 echo "---------------------------------------------"
-cd jhipster-sample-hazelcast
+cd jhipster-sample-app-hazelcast
 yo jhipster --force
 yo jhipster:entity BankAccount --force
 yo jhipster:entity Label --force
