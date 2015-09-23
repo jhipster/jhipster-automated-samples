@@ -6,6 +6,7 @@ echo "---------------------------------------------"
 echo "current project: jhipster-sample-app"
 echo "---------------------------------------------"
 cd jhipster-sample-app
+rm .git/index
 yo jhipster --force
 yo jhipster:entity BankAccount --force
 yo jhipster:entity Label --force
@@ -19,6 +20,7 @@ echo "---------------------------------------------"
 echo "current project: jhipster-sample-app-gradle"
 echo "---------------------------------------------"
 cd jhipster-sample-app-gradle
+rm .git/index
 yo jhipster --force
 yo jhipster:entity BankAccount --force
 yo jhipster:entity Label --force
@@ -32,6 +34,7 @@ echo "---------------------------------------------"
 echo "current project: jhipster-sample-app-java7"
 echo "---------------------------------------------"
 cd jhipster-sample-app-java7
+rm .git/index
 yo jhipster --force
 yo jhipster:entity BankAccount --force
 yo jhipster:entity Label --force
@@ -45,6 +48,7 @@ echo "---------------------------------------------"
 echo "current project: jhipster-sample-app-gulp"
 echo "---------------------------------------------"
 cd jhipster-sample-app-gulp
+rm .git/index
 yo jhipster --force
 yo jhipster:entity BankAccount --force
 yo jhipster:entity Label --force
@@ -58,6 +62,7 @@ echo "---------------------------------------------"
 echo "current project: jhipster-sample-app-mongodb"
 echo "---------------------------------------------"
 cd jhipster-sample-app-mongodb
+rm .git/index
 yo jhipster --force
 yo jhipster:entity BankAccount --force
 git add .
@@ -69,6 +74,7 @@ echo "---------------------------------------------"
 echo "current project: jhipster-sample-app-cassandra"
 echo "---------------------------------------------"
 cd jhipster-sample-app-cassandra
+rm .git/index
 yo jhipster --force
 git add .
 git commit -m "automatic project update"
@@ -79,6 +85,7 @@ echo "---------------------------------------------"
 echo "current project: jhipster-sample-app-dto"
 echo "---------------------------------------------"
 cd jhipster-sample-app-dto
+rm .git/index
 yo jhipster --force
 yo jhipster:entity BankAccount --force
 yo jhipster:entity Label --force
@@ -92,6 +99,7 @@ echo "---------------------------------------------"
 echo "current project: jhipster-sample-app-elasticsearch"
 echo "---------------------------------------------"
 cd jhipster-sample-app-elasticsearch
+rm .git/index
 yo jhipster --force
 yo jhipster:entity BankAccount --force
 yo jhipster:entity Label --force
@@ -105,6 +113,7 @@ echo "---------------------------------------------"
 echo "current project: jhipster-sample-app-hazelcast"
 echo "---------------------------------------------"
 cd jhipster-sample-app-hazelcast
+rm .git/index
 yo jhipster --force
 yo jhipster:entity BankAccount --force
 yo jhipster:entity Label --force
@@ -118,6 +127,7 @@ echo "---------------------------------------------"
 echo "current project: jhipster-sample-app-nocache"
 echo "---------------------------------------------"
 cd jhipster-sample-app-nocache
+rm .git/index
 yo jhipster --force
 yo jhipster:entity BankAccount --force
 yo jhipster:entity Label --force
@@ -131,6 +141,7 @@ echo "---------------------------------------------"
 echo "current project: jhipster-sample-app-noi18n"
 echo "---------------------------------------------"
 cd jhipster-sample-app-noi18n
+rm .git/index
 yo jhipster --force
 yo jhipster:entity BankAccount --force
 yo jhipster:entity Label --force
@@ -144,6 +155,7 @@ echo "---------------------------------------------"
 echo "current project: jhipster-sample-app-websocket"
 echo "---------------------------------------------"
 cd jhipster-sample-app-websocket
+rm .git/index
 yo jhipster --force
 git add .
 git commit -m "automatic project update"
@@ -154,6 +166,7 @@ echo "---------------------------------------------"
 echo "current project: jhipster-sample-app-oauth2"
 echo "---------------------------------------------"
 cd jhipster-sample-app-oauth2
+rm .git/index
 yo jhipster --force
 git add .
 git commit -m "automatic project update"
@@ -164,6 +177,7 @@ echo "---------------------------------------------"
 echo "current project: jhipster-sample-app-token"
 echo "---------------------------------------------"
 cd jhipster-sample-app-token
+rm .git/index
 yo jhipster --force
 git add .
 git commit -m "automatic project update"
