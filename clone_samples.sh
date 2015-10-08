@@ -6,7 +6,6 @@ cd samples
 
 git clone https://github.com/jhipster/jhipster-sample-app.git
 git clone https://github.com/jhipster/jhipster-sample-app-gradle.git
-git clone https://github.com/jhipster/jhipster-sample-app-java7.git
 git clone https://github.com/jhipster/jhipster-sample-app-gulp.git
 git clone https://github.com/jhipster/jhipster-sample-app-mongodb.git
 git clone https://github.com/jhipster/jhipster-sample-app-cassandra.git
