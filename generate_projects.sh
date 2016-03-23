@@ -33,21 +33,6 @@ git push
 cd ..
 
 echo "---------------------------------------------"
-echo "current project: jhipster-sample-app-gulp"
-echo "---------------------------------------------"
-cd jhipster-sample-app-gulp
-rm .git/index
-rm -rf src
-yo jhipster --force
-yo jhipster:entity BankAccount --force
-yo jhipster:entity Label --force
-yo jhipster:entity Operation --force
-git add .
-git commit -m "automatic project update"
-git push
-cd ..
-
-echo "---------------------------------------------"
 echo "current project: jhipster-sample-app-mongodb"
 echo "---------------------------------------------"
 cd jhipster-sample-app-mongodb
