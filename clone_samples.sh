@@ -4,15 +4,15 @@ cd ..
 mkdir samples
 cd samples
 
-git clone https://github.com/jhipster/jhipster-sample-app.git
-git clone https://github.com/jhipster/jhipster-sample-app-gradle.git
-git clone https://github.com/jhipster/jhipster-sample-app-mongodb.git
-git clone https://github.com/jhipster/jhipster-sample-app-cassandra.git
-git clone https://github.com/jhipster/jhipster-sample-app-dto.git
-git clone https://github.com/jhipster/jhipster-sample-app-elasticsearch.git
-git clone https://github.com/jhipster/jhipster-sample-app-hazelcast.git
-git clone https://github.com/jhipster/jhipster-sample-app-nocache.git
-git clone https://github.com/jhipster/jhipster-sample-app-noi18n.git
-git clone https://github.com/jhipster/jhipster-sample-app-websocket.git
-git clone https://github.com/jhipster/jhipster-sample-app-oauth2.git
-git clone https://github.com/jhipster/jhipster-sample-app-token.git
+git clone https://github.com/jhipster/jhipster-sample-app.git --single-branch --depth 1
+git clone https://github.com/jhipster/jhipster-sample-app-gradle.git --single-branch --depth 1
+git clone https://github.com/jhipster/jhipster-sample-app-mongodb.git --single-branch --depth 1
+git clone https://github.com/jhipster/jhipster-sample-app-cassandra.git --single-branch --depth 1
+git clone https://github.com/jhipster/jhipster-sample-app-dto.git --single-branch --depth 1
+git clone https://github.com/jhipster/jhipster-sample-app-elasticsearch.git --single-branch --depth 1
+git clone https://github.com/jhipster/jhipster-sample-app-hazelcast.git --single-branch --depth 1
+git clone https://github.com/jhipster/jhipster-sample-app-nocache.git --single-branch --depth 1
+git clone https://github.com/jhipster/jhipster-sample-app-noi18n.git --single-branch --depth 1
+git clone https://github.com/jhipster/jhipster-sample-app-websocket.git --single-branch --depth 1
+git clone https://github.com/jhipster/jhipster-sample-app-oauth2.git --single-branch --depth 1
+git clone https://github.com/jhipster/jhipster-sample-app-token.git --single-branch --depth 1
