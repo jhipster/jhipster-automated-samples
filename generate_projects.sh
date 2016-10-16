@@ -183,3 +183,28 @@ git add .
 git commit -m "automatic project update"
 git push
 cd ..
+
+echo "---------------------------------------------"
+echo "current project: jhipster-sample-app-gateway"
+echo "---------------------------------------------"
+cd jhipster-sample-app-gateway
+rm .git/index
+rm -rf src
+rm -rf node_modules
+yo jhipster --force --with-entities
+git add .
+git commit -m "automatic project update"
+git push
+cd ..
+
+echo "---------------------------------------------"
+echo "current project: jhipster-sample-app-microservice"
+echo "---------------------------------------------"
+cd jhipster-sample-app-microservice
+rm .git/index
+rm -rf src
+yo jhipster --force --with-entities
+git add .
+git commit -m "automatic project update"
+git push
+cd ..
