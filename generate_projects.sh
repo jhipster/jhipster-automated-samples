@@ -19,6 +19,22 @@ git push
 cd ..
 
 echo "---------------------------------------------"
+echo "current project: jhipster-sample-app-ng2"
+echo "---------------------------------------------"
+cd jhipster-sample-app
+rm .git/index
+rm -rf src
+rm -rf node_modules
+yo jhipster --force
+yo jhipster:entity BankAccount --force
+yo jhipster:entity Label --force
+yo jhipster:entity Operation --force
+git add .
+git commit -m "automatic project update"
+git push
+cd ..
+
+echo "---------------------------------------------"
 echo "current project: jhipster-sample-app-gradle"
 echo "---------------------------------------------"
 cd jhipster-sample-app-gradle
