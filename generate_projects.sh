@@ -21,7 +21,7 @@ cd ..
 echo "---------------------------------------------"
 echo "current project: jhipster-sample-app-ng2"
 echo "---------------------------------------------"
-cd jhipster-sample-app
+cd jhipster-sample-app-ng2
 rm .git/index
 rm -rf src
 rm -rf node_modules
