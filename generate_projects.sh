@@ -10,10 +10,7 @@ find . -not -name ".yo-rc.json" -type f -maxdepth 1 -delete
 rm .git/index
 rm -rf src
 rm -rf node_modules
-yo jhipster --force
-yo jhipster:entity BankAccount --force
-yo jhipster:entity Label --force
-yo jhipster:entity Operation --force
+jhipster --force --with-entities
 git add .
 git commit -m "automatic project update"
 git push
@@ -27,10 +24,7 @@ find . -not -name ".yo-rc.json" -type f -maxdepth 1 -delete
 rm .git/index
 rm -rf src
 rm -rf node_modules
-yo jhipster --force
-yo jhipster:entity BankAccount --force
-yo jhipster:entity Label --force
-yo jhipster:entity Operation --force
+jhipster --force --with-entities
 git add .
 git commit -m "automatic project update"
 git push
@@ -44,10 +38,7 @@ find . -not -name ".yo-rc.json" -type f -maxdepth 1 -delete
 rm .git/index
 rm -rf src
 rm -rf node_modules
-yo jhipster --force
-yo jhipster:entity BankAccount --force
-yo jhipster:entity Label --force
-yo jhipster:entity Operation --force
+jhipster --force --with-entities
 git add .
 git commit -m "automatic project update"
 git push
@@ -61,8 +52,7 @@ find . -not -name ".yo-rc.json" -type f -maxdepth 1 -delete
 rm .git/index
 rm -rf src
 rm -rf node_modules
-yo jhipster --force
-yo jhipster:entity BankAccount --force
+jhipster --force --with-entities
 git add .
 git commit -m "automatic project update"
 git push
@@ -76,7 +66,7 @@ find . -not -name ".yo-rc.json" -type f -maxdepth 1 -delete
 rm .git/index
 rm -rf src
 rm -rf node_modules
-yo jhipster --force
+jhipster --force
 git add .
 git commit -m "automatic project update"
 git push
@@ -90,10 +80,7 @@ find . -not -name ".yo-rc.json" -type f -maxdepth 1 -delete
 rm .git/index
 rm -rf src
 rm -rf node_modules
-yo jhipster --force
-yo jhipster:entity BankAccount --force
-yo jhipster:entity Label --force
-yo jhipster:entity Operation --force
+jhipster --force --with-entities
 git add .
 git commit -m "automatic project update"
 git push
@@ -107,10 +94,7 @@ find . -not -name ".yo-rc.json" -type f -maxdepth 1 -delete
 rm .git/index
 rm -rf src
 rm -rf node_modules
-yo jhipster --force
-yo jhipster:entity BankAccount --force
-yo jhipster:entity Label --force
-yo jhipster:entity Operation --force
+jhipster --force --with-entities
 git add .
 git commit -m "automatic project update"
 git push
@@ -124,10 +108,7 @@ find . -not -name ".yo-rc.json" -type f -maxdepth 1 -delete
 rm .git/index
 rm -rf src
 rm -rf node_modules
-yo jhipster --force
-yo jhipster:entity BankAccount --force
-yo jhipster:entity Label --force
-yo jhipster:entity Operation --force
+jhipster --force --with-entities
 git add .
 git commit -m "automatic project update"
 git push
@@ -141,10 +122,7 @@ find . -not -name ".yo-rc.json" -type f -maxdepth 1 -delete
 rm .git/index
 rm -rf src
 rm -rf node_modules
-yo jhipster --force
-yo jhipster:entity BankAccount --force
-yo jhipster:entity Label --force
-yo jhipster:entity Operation --force
+jhipster --force --with-entities
 git add .
 git commit -m "automatic project update"
 git push
@@ -158,10 +136,7 @@ find . -not -name ".yo-rc.json" -type f -maxdepth 1 -delete
 rm .git/index
 rm -rf src
 rm -rf node_modules
-yo jhipster --force
-yo jhipster:entity BankAccount --force
-yo jhipster:entity Label --force
-yo jhipster:entity Operation --force
+jhipster --force --with-entities
 git add .
 git commit -m "automatic project update"
 git push
@@ -175,7 +150,7 @@ find . -not -name ".yo-rc.json" -type f -maxdepth 1 -delete
 rm .git/index
 rm -rf src
 rm -rf node_modules
-yo jhipster --force
+jhipster --force
 git add .
 git commit -m "automatic project update"
 git push
@@ -189,7 +164,7 @@ find . -not -name ".yo-rc.json" -type f -maxdepth 1 -delete
 rm .git/index
 rm -rf src
 rm -rf node_modules
-yo jhipster --force
+jhipster --force
 git add .
 git commit -m "automatic project update"
 git push
@@ -203,7 +178,7 @@ find . -not -name ".yo-rc.json" -type f -maxdepth 1 -delete
 rm .git/index
 rm -rf src
 rm -rf node_modules
-yo jhipster --force
+jhipster --force
 git add .
 git commit -m "automatic project update"
 git push
