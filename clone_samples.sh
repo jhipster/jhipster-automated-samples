@@ -17,3 +17,5 @@ git clone https://github.com/jhipster/jhipster-sample-app-noi18n.git --single-br
 git clone https://github.com/jhipster/jhipster-sample-app-websocket.git --single-branch --depth 1
 git clone https://github.com/jhipster/jhipster-sample-app-oauth2.git --single-branch --depth 1
 git clone https://github.com/jhipster/jhipster-sample-app-token.git --single-branch --depth 1
+git clone https://github.com/jhipster/jhipster-sample-app-gateway.git --single-branch --depth 1
+git clone https://github.com/jhipster/jhipster-sample-app-microservice.git --single-branch --depth 1
