@@ -17,14 +17,28 @@ git push
 cd ..
 
 echo "---------------------------------------------"
-echo "current project: jhipster-sample-app-ng2"
+echo "current project: jhipster-sample-app-ng1"
 echo "---------------------------------------------"
-cd jhipster-sample-app-ng2
+cd jhipster-sample-app-ng1
 find . -not -name ".yo-rc.json" -type f -maxdepth 1 -delete
 rm .git/index
 rm -rf src
 rm -rf node_modules
 jhipster --force --with-entities
+git add .
+git commit -m "automatic project update"
+git push
+cd ..
+
+echo "---------------------------------------------"
+echo "current project: jhipster-sample-app-react"
+echo "---------------------------------------------"
+cd jhipster-sample-app-react
+find . -not -name ".yo-rc.json" -type f -maxdepth 1 -delete
+rm .git/index
+rm -rf src
+rm -rf node_modules
+jhipster --force --experimental
 git add .
 git commit -m "automatic project update"
 git push
@@ -205,6 +219,7 @@ cd jhipster-sample-app-microservice
 find . -not -name ".yo-rc.json" -type f -maxdepth 1 -delete
 rm .git/index
 rm -rf src
+rm -rf node_modules
 jhipster --force --with-entities
 git add .
 git commit -m "automatic project update"

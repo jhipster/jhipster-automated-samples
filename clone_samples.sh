@@ -5,7 +5,8 @@ mkdir samples
 cd samples
 
 git clone https://github.com/jhipster/jhipster-sample-app.git --single-branch --depth 1
-git clone https://github.com/jhipster/jhipster-sample-app-ng2.git --single-branch --depth 1
+git clone https://github.com/jhipster/jhipster-sample-app-ng1.git --single-branch --depth 1
+git clone https://github.com/jhipster/jhipster-sample-app-react.git --single-branch --depth 1
 git clone https://github.com/jhipster/jhipster-sample-app-gradle.git --single-branch --depth 1
 git clone https://github.com/jhipster/jhipster-sample-app-mongodb.git --single-branch --depth 1
 git clone https://github.com/jhipster/jhipster-sample-app-cassandra.git --single-branch --depth 1
