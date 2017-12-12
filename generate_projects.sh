@@ -10,7 +10,7 @@ find . -not -name ".yo-rc.json" -not -name "Dockerfile" -type f -maxdepth 1 -del
 rm .git/index
 rm -rf src
 rm -rf node_modules
-jhipster --force --with-entities
+jhipster --no-insight --skip-checks --skip-install --force --with-entities
 git add .
 git commit -m "automatic project update"
 git push
@@ -24,7 +24,7 @@ find . -not -name ".yo-rc.json" -not -name "Dockerfile" -type f -maxdepth 1 -del
 rm .git/index
 rm -rf src
 rm -rf node_modules
-jhipster --force --with-entities
+jhipster --no-insight --skip-checks --skip-install --force --with-entities
 git add .
 git commit -m "automatic project update"
 git push
@@ -38,7 +38,7 @@ find . -not -name ".yo-rc.json" -not -name "Dockerfile" -type f -maxdepth 1 -del
 rm .git/index
 rm -rf src
 rm -rf node_modules
-jhipster --force --experimental
+jhipster --no-insight --skip-checks --skip-install --force --experimental
 git add .
 git commit -m "automatic project update"
 git push
@@ -52,7 +52,7 @@ find . -not -name ".yo-rc.json" -not -name "Dockerfile" -type f -maxdepth 1 -del
 rm .git/index
 rm -rf src
 rm -rf node_modules
-jhipster --force --with-entities
+jhipster --no-insight --skip-checks --skip-install --force --with-entities
 git add .
 git commit -m "automatic project update"
 git push
@@ -66,7 +66,7 @@ find . -not -name ".yo-rc.json" -not -name "Dockerfile" -type f -maxdepth 1 -del
 rm .git/index
 rm -rf src
 rm -rf node_modules
-jhipster --force --with-entities
+jhipster --no-insight --skip-checks --skip-install --force --with-entities
 git add .
 git commit -m "automatic project update"
 git push
@@ -80,7 +80,7 @@ find . -not -name ".yo-rc.json" -not -name "Dockerfile" -type f -maxdepth 1 -del
 rm .git/index
 rm -rf src
 rm -rf node_modules
-jhipster --force
+jhipster --no-insight --skip-checks --skip-install --force
 git add .
 git commit -m "automatic project update"
 git push
@@ -94,7 +94,7 @@ find . -not -name ".yo-rc.json" -not -name "Dockerfile" -type f -maxdepth 1 -del
 rm .git/index
 rm -rf src
 rm -rf node_modules
-jhipster --force --with-entities
+jhipster --no-insight --skip-checks --skip-install --force --with-entities
 git add .
 git commit -m "automatic project update"
 git push
@@ -108,7 +108,7 @@ find . -not -name ".yo-rc.json" -not -name "Dockerfile" -type f -maxdepth 1 -del
 rm .git/index
 rm -rf src
 rm -rf node_modules
-jhipster --force --with-entities
+jhipster --no-insight --skip-checks --skip-install --force --with-entities
 git add .
 git commit -m "automatic project update"
 git push
@@ -122,7 +122,7 @@ find . -not -name ".yo-rc.json" -not -name "Dockerfile" -type f -maxdepth 1 -del
 rm .git/index
 rm -rf src
 rm -rf node_modules
-jhipster --force --with-entities
+jhipster --no-insight --skip-checks --skip-install --force --with-entities
 git add .
 git commit -m "automatic project update"
 git push
@@ -136,7 +136,7 @@ find . -not -name ".yo-rc.json" -not -name "Dockerfile" -type f -maxdepth 1 -del
 rm .git/index
 rm -rf src
 rm -rf node_modules
-jhipster --force --with-entities
+jhipster --no-insight --skip-checks --skip-install --force --with-entities
 git add .
 git commit -m "automatic project update"
 git push
@@ -150,7 +150,7 @@ find . -not -name ".yo-rc.json" -not -name "Dockerfile" -type f -maxdepth 1 -del
 rm .git/index
 rm -rf src
 rm -rf node_modules
-jhipster --force --with-entities
+jhipster --no-insight --skip-checks --skip-install --force --with-entities
 git add .
 git commit -m "automatic project update"
 git push
@@ -164,7 +164,7 @@ find . -not -name ".yo-rc.json" -not -name "Dockerfile" -type f -maxdepth 1 -del
 rm .git/index
 rm -rf src
 rm -rf node_modules
-jhipster --force
+jhipster --no-insight --skip-checks --skip-install --force
 git add .
 git commit -m "automatic project update"
 git push
@@ -178,7 +178,7 @@ find . -not -name ".yo-rc.json" -not -name "Dockerfile" -type f -maxdepth 1 -del
 rm .git/index
 rm -rf src
 rm -rf node_modules
-jhipster --force
+jhipster --no-insight --skip-checks --skip-install --force
 git add .
 git commit -m "automatic project update"
 git push
@@ -192,7 +192,7 @@ find . -not -name ".yo-rc.json" -not -name "Dockerfile" -type f -maxdepth 1 -del
 rm .git/index
 rm -rf src
 rm -rf node_modules
-jhipster --force
+jhipster --no-insight --skip-checks --skip-install --force
 git add .
 git commit -m "automatic project update"
 git push
@@ -206,7 +206,7 @@ find . -not -name ".yo-rc.json" -not -name "Dockerfile" -type f -maxdepth 1 -del
 rm .git/index
 rm -rf src
 rm -rf node_modules
-jhipster --force --with-entities
+jhipster --no-insight --skip-checks --skip-install --force --with-entities
 git add .
 git commit -m "automatic project update"
 git push
@@ -220,7 +220,7 @@ find . -not -name ".yo-rc.json" -not -name "Dockerfile" -type f -maxdepth 1 -del
 rm .git/index
 rm -rf src
 rm -rf node_modules
-jhipster --force --with-entities
+jhipster --no-insight --skip-checks --skip-install --force --with-entities
 git add .
 git commit -m "automatic project update"
 git push
