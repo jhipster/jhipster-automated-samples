@@ -8,6 +8,7 @@ git clone https://github.com/jhipster/jhipster-sample-app.git --single-branch --
 git clone https://github.com/jhipster/jhipster-sample-app-react.git --single-branch --depth 1
 git clone https://github.com/jhipster/jhipster-sample-app-gradle.git --single-branch --depth 1
 git clone https://github.com/jhipster/jhipster-sample-app-mongodb.git --single-branch --depth 1
+git clone https://github.com/jhipster/jhipster-sample-app-couchbase.git --single-branch --depth 1
 git clone https://github.com/jhipster/jhipster-sample-app-cassandra.git --single-branch --depth 1
 git clone https://github.com/jhipster/jhipster-sample-app-dto.git --single-branch --depth 1
 git clone https://github.com/jhipster/jhipster-sample-app-elasticsearch.git --single-branch --depth 1

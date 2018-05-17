@@ -59,6 +59,20 @@ git push
 cd ..
 
 echo "---------------------------------------------"
+echo "current project: jhipster-sample-app-couchbase"
+echo "---------------------------------------------"
+cd jhipster-sample-app-couchbase
+find . -not -name ".yo-rc.json" -not -name "Dockerfile" -type f -maxdepth 1 -delete
+rm .git/index
+rm -rf src
+rm -rf node_modules
+jhipster --no-insight --skip-checks --skip-install --force --with-entities
+git add .
+git commit -m "automatic project update"
+git push
+cd ..
+
+echo "---------------------------------------------"
 echo "current project: jhipster-sample-app-cassandra"
 echo "---------------------------------------------"
 cd jhipster-sample-app-cassandra
