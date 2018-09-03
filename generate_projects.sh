@@ -11,7 +11,7 @@ rm .git/index
 rm -rf src
 rm -rf node_modules
 jhipster --no-insight --skip-checks --skip-install --force --with-entities
-yarn install
+npm install
 git add .
 git commit -m "automatic project update"
 git push
@@ -26,7 +26,7 @@ rm .git/index
 rm -rf src
 rm -rf node_modules
 jhipster --no-insight --skip-checks --skip-install --force --experimental
-yarn install
+npm install
 git add .
 git commit -m "automatic project update"
 git push
@@ -41,7 +41,7 @@ rm .git/index
 rm -rf src
 rm -rf node_modules
 jhipster --no-insight --skip-checks --skip-install --force --with-entities
-yarn install
+npm install
 git add .
 git commit -m "automatic project update"
 git push
@@ -56,7 +56,7 @@ rm .git/index
 rm -rf src
 rm -rf node_modules
 jhipster --no-insight --skip-checks --skip-install --force --with-entities
-yarn install
+npm install
 git add .
 git commit -m "automatic project update"
 git push
@@ -85,7 +85,7 @@ rm .git/index
 rm -rf src
 rm -rf node_modules
 jhipster --no-insight --skip-checks --skip-install --force
-yarn install
+npm install
 git add .
 git commit -m "automatic project update"
 git push
@@ -101,7 +101,7 @@ rm .git/index
 rm -rf src
 rm -rf node_modules
 jhipster --no-insight --skip-checks --skip-install --force
-yarn install
+npm install
 git add .
 git commit -m "automatic project update"
 git push
@@ -116,7 +116,7 @@ rm .git/index
 rm -rf src
 rm -rf node_modules
 jhipster --no-insight --skip-checks --skip-install --force --with-entities
-yarn install
+npm install
 git add .
 git commit -m "automatic project update"
 git push
@@ -131,7 +131,7 @@ rm .git/index
 rm -rf src
 rm -rf node_modules
 jhipster --no-insight --skip-checks --skip-install --force --with-entities
-yarn install
+npm install
 git add .
 git commit -m "automatic project update"
 git push
@@ -146,7 +146,7 @@ rm .git/index
 rm -rf src
 rm -rf node_modules
 jhipster --no-insight --skip-checks --skip-install --force --with-entities
-yarn install
+npm install
 git add .
 git commit -m "automatic project update"
 git push
@@ -175,7 +175,7 @@ rm .git/index
 rm -rf src
 rm -rf node_modules
 jhipster --no-insight --skip-checks --skip-install --force --with-entities
-yarn install
+npm install
 git add .
 git commit -m "automatic project update"
 git push
@@ -190,7 +190,7 @@ rm .git/index
 rm -rf src
 rm -rf node_modules
 jhipster --no-insight --skip-checks --skip-install --force
-yarn install
+npm install
 git add .
 git commit -m "automatic project update"
 git push
@@ -205,7 +205,7 @@ rm .git/index
 rm -rf src
 rm -rf node_modules
 jhipster --no-insight --skip-checks --skip-install --force
-yarn install
+npm install
 git add .
 git commit -m "automatic project update"
 git push
@@ -220,7 +220,7 @@ rm .git/index
 rm -rf src
 rm -rf node_modules
 jhipster --no-insight --skip-checks --skip-install --force --with-entities
-yarn install
+npm install
 git add .
 git commit -m "automatic project update"
 git push
@@ -235,7 +235,7 @@ rm .git/index
 rm -rf src
 rm -rf node_modules
 jhipster --no-insight --skip-checks --skip-install --force --with-entities
-yarn install
+npm install
 git add .
 git commit -m "automatic project update"
 git push
