@@ -25,7 +25,7 @@ find . -not -name ".yo-rc.json" -not -name "Dockerfile" -type f -maxdepth 1 -del
 rm .git/index
 rm -rf src
 rm -rf node_modules
-jhipster --no-insight --skip-checks --skip-install --force --experimental
+jhipster --no-insight --skip-checks --skip-install --force --with-entities
 npm install
 git add .
 git commit -m "automatic project update"
