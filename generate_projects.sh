@@ -39,6 +39,7 @@ cd jhipster-sample-app-gradle
 find . -not -name ".yo-rc.json" -not -name "Dockerfile" -type f -maxdepth 1 -delete
 rm .git/index
 rm -rf src
+rm -rf gradle
 rm -rf node_modules
 jhipster --no-insight --skip-checks --skip-install --force --with-entities
 npm install
