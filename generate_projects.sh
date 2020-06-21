@@ -267,7 +267,7 @@ rm .git/index
 rm -rf src
 rm -rf node_modules
 npm install -g generator-jhipster-kotlin
-jhipster --blueprint kotlin --no-insight --skip-checks --skip-install --force --with-entities
+khipster --no-insight --skip-checks --skip-install --force --with-entities
 npm install
 git add .
 git commit -m "automatic project update"
