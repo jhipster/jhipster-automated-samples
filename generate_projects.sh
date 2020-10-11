@@ -241,35 +241,3 @@ git add .
 git commit -m "automatic project update"
 git push
 cd ..
-
-echo "---------------------------------------------"
-echo "current project: jhipster-sample-app-vuejs"
-echo "---------------------------------------------"
-cd jhipster-sample-app-vuejs
-find . -not -name ".yo-rc.json" -not -name "Dockerfile" -type f -maxdepth 1 -delete
-rm .git/index
-rm -rf src
-rm -rf node_modules
-npm install -g generator-jhipster-vuejs
-jhipster --blueprint vuejs --no-insight --skip-checks --skip-install --force --with-entities
-npm install
-git add .
-git commit -m "automatic project update"
-git push
-cd ..
-
-echo "---------------------------------------------"
-echo "current project: jhipster-sample-app-kotlin"
-echo "---------------------------------------------"
-cd jhipster-sample-app-kotlin
-find . -not -name ".yo-rc.json" -not -name "Dockerfile" -type f -maxdepth 1 -delete
-rm .git/index
-rm -rf src
-rm -rf node_modules
-npm install -g generator-jhipster-kotlin
-jhipster --blueprint kotlin --no-insight --skip-checks --skip-install --force --with-entities
-npm install
-git add .
-git commit -m "automatic project update"
-git push
-cd ..
