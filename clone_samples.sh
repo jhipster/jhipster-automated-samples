@@ -19,5 +19,3 @@ git clone git@github.com:jhipster/jhipster-sample-app-websocket.git --single-bra
 git clone git@github.com:jhipster/jhipster-sample-app-oauth2.git --single-branch --depth 1
 git clone git@github.com:jhipster/jhipster-sample-app-gateway.git --single-branch --depth 1
 git clone git@github.com:jhipster/jhipster-sample-app-microservice.git --single-branch --depth 1
-git clone git@github.com:jhipster/jhipster-sample-app-vuejs.git --single-branch --depth 1
-git clone git@github.com:jhipster/jhipster-sample-app-kotlin.git --single-branch --depth 1
