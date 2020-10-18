@@ -11,6 +11,7 @@ rm .git/index
 rm -rf src
 rm -rf node_modules
 jhipster --no-insight --skip-checks --skip-install --force --with-entities
+cp ../../jhipster-automated-samples/LICENSE.txt .
 npm install
 git add .
 git commit -m "automatic project update"
@@ -26,6 +27,7 @@ rm .git/index
 rm -rf src
 rm -rf node_modules
 jhipster --no-insight --skip-checks --skip-install --force --with-entities
+cp ../../jhipster-automated-samples/LICENSE.txt .
 npm install
 git add .
 git commit -m "automatic project update"
@@ -42,6 +44,7 @@ rm -rf src
 rm -rf gradle
 rm -rf node_modules
 jhipster --no-insight --skip-checks --skip-install --force --with-entities
+cp ../../jhipster-automated-samples/LICENSE.txt .
 npm install
 git add .
 git commit -m "automatic project update"
@@ -57,6 +60,7 @@ rm .git/index
 rm -rf src
 rm -rf node_modules
 jhipster --no-insight --skip-checks --skip-install --force --with-entities
+cp ../../jhipster-automated-samples/LICENSE.txt .
 npm install
 git add .
 git commit -m "automatic project update"
@@ -72,6 +76,7 @@ rm .git/index
 rm -rf src
 rm -rf node_modules
 jhipster --no-insight --skip-checks --skip-install --force --with-entities
+cp ../../jhipster-automated-samples/LICENSE.txt .
 git add .
 git commit -m "automatic project update"
 git push
@@ -86,6 +91,7 @@ rm .git/index
 rm -rf src
 rm -rf node_modules
 jhipster --no-insight --skip-checks --skip-install --force
+cp ../../jhipster-automated-samples/LICENSE.txt .
 npm install
 git add .
 git commit -m "automatic project update"
@@ -102,6 +108,7 @@ rm .git/index
 rm -rf src
 rm -rf node_modules
 jhipster --no-insight --skip-checks --skip-install --force
+cp ../../jhipster-automated-samples/LICENSE.txt .
 npm install
 git add .
 git commit -m "automatic project update"
@@ -117,6 +124,7 @@ rm .git/index
 rm -rf src
 rm -rf node_modules
 jhipster --no-insight --skip-checks --skip-install --force --with-entities
+cp ../../jhipster-automated-samples/LICENSE.txt .
 npm install
 git add .
 git commit -m "automatic project update"
@@ -132,6 +140,7 @@ rm .git/index
 rm -rf src
 rm -rf node_modules
 jhipster --no-insight --skip-checks --skip-install --force --with-entities
+cp ../../jhipster-automated-samples/LICENSE.txt .
 npm install
 git add .
 git commit -m "automatic project update"
@@ -147,6 +156,7 @@ rm .git/index
 rm -rf src
 rm -rf node_modules
 jhipster --no-insight --skip-checks --skip-install --force --with-entities
+cp ../../jhipster-automated-samples/LICENSE.txt .
 npm install
 git add .
 git commit -m "automatic project update"
@@ -162,6 +172,7 @@ rm .git/index
 rm -rf src
 rm -rf node_modules
 jhipster --no-insight --skip-checks --skip-install --force --with-entities
+cp ../../jhipster-automated-samples/LICENSE.txt .
 git add .
 git commit -m "automatic project update"
 git push
@@ -176,6 +187,7 @@ rm .git/index
 rm -rf src
 rm -rf node_modules
 jhipster --no-insight --skip-checks --skip-install --force --with-entities
+cp ../../jhipster-automated-samples/LICENSE.txt .
 npm install
 git add .
 git commit -m "automatic project update"
@@ -191,6 +203,7 @@ rm .git/index
 rm -rf src
 rm -rf node_modules
 jhipster --no-insight --skip-checks --skip-install --force
+cp ../../jhipster-automated-samples/LICENSE.txt .
 npm install
 git add .
 git commit -m "automatic project update"
@@ -206,6 +219,7 @@ rm .git/index
 rm -rf src
 rm -rf node_modules
 jhipster --no-insight --skip-checks --skip-install --force
+cp ../../jhipster-automated-samples/LICENSE.txt .
 npm install
 git add .
 git commit -m "automatic project update"
@@ -221,6 +235,7 @@ rm .git/index
 rm -rf src
 rm -rf node_modules
 jhipster --no-insight --skip-checks --skip-install --force --with-entities
+cp ../../jhipster-automated-samples/LICENSE.txt .
 npm install
 git add .
 git commit -m "automatic project update"
@@ -236,6 +251,7 @@ rm .git/index
 rm -rf src
 rm -rf node_modules
 jhipster --no-insight --skip-checks --skip-install --force --with-entities
+cp ../../jhipster-automated-samples/LICENSE.txt .
 npm install
 git add .
 git commit -m "automatic project update"
