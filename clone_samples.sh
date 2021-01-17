@@ -6,6 +6,7 @@ cd samples
 
 git clone git@github.com:jhipster/jhipster-sample-app.git --single-branch --depth 1
 git clone git@github.com:jhipster/jhipster-sample-app-react.git --single-branch --depth 1
+git clone git@github.com:jhipster/jhipster-sample-app-vuejs.git --single-branch --depth 1
 git clone git@github.com:jhipster/jhipster-sample-app-gradle.git --single-branch --depth 1
 git clone git@github.com:jhipster/jhipster-sample-app-mongodb.git --single-branch --depth 1
 git clone git@github.com:jhipster/jhipster-sample-app-couchbase.git --single-branch --depth 1

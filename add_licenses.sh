@@ -23,6 +23,16 @@ git push
 cd ..
 
 echo "---------------------------------------------"
+echo "current project: jhipster-sample-app-vuejs"
+echo "---------------------------------------------"
+cd jhipster-sample-app-vuejs
+cp ../../jhipster-automated-samples/LICENSE.txt .
+git add .
+git commit -m "Add LICENSE"
+git push
+cd ..
+
+echo "---------------------------------------------"
 echo "current project: jhipster-sample-app-gradle"
 echo "---------------------------------------------"
 cd jhipster-sample-app-gradle

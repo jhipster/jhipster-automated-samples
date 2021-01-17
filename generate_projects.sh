@@ -35,6 +35,22 @@ git push
 cd ..
 
 echo "---------------------------------------------"
+echo "current project: jhipster-sample-app-vuejs"
+echo "---------------------------------------------"
+cd jhipster-sample-app-vuejs
+find . -not -name ".yo-rc.json" -not -name "Dockerfile" -type f -maxdepth 1 -delete
+rm .git/index
+rm -rf src
+rm -rf node_modules
+jhipster --no-insight --skip-checks --skip-install --force --with-entities
+cp ../../jhipster-automated-samples/LICENSE.txt .
+npm install
+git add .
+git commit -m "automatic project update"
+git push
+cd ..
+
+echo "---------------------------------------------"
 echo "current project: jhipster-sample-app-gradle"
 echo "---------------------------------------------"
 cd jhipster-sample-app-gradle
@@ -97,7 +113,6 @@ git add .
 git commit -m "automatic project update"
 git push
 cd ..
-
 
 echo "---------------------------------------------"
 echo "current project: jhipster-sample-app-couchbase"
