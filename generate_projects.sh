@@ -93,6 +93,7 @@ rm -rf src
 rm -rf node_modules
 jhipster --no-insight --skip-checks --skip-install --force --with-entities
 cp ../../jhipster-automated-samples/LICENSE.txt .
+npm install
 git add .
 git commit -m "automatic project update"
 git push
