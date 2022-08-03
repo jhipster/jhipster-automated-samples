@@ -2,6 +2,8 @@
 echo "Starting to generate JHipster sample projects"
 cd ../samples
 
+read -p "Enter the JHipster version to tag: " JHIPSTER_VERSION
+
 echo "---------------------------------------------"
 echo "current project: jhipster-sample-app"
 echo "---------------------------------------------"
@@ -14,8 +16,9 @@ jhipster --no-insight --skip-checks --skip-install --force --with-entities
 cp ../../jhipster-automated-samples/LICENSE.txt .
 npm install
 git add .
-git commit -m "automatic project update"
+git commit -m "automatic project update for $JHIPSTER_VERSION"
 git push
+git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION
 cd ..
 
 echo "---------------------------------------------"
@@ -30,8 +33,9 @@ jhipster --no-insight --skip-checks --skip-install --force --with-entities
 cp ../../jhipster-automated-samples/LICENSE.txt .
 npm install
 git add .
-git commit -m "automatic project update"
+git commit -m "automatic project update for $JHIPSTER_VERSION"
 git push
+git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION
 cd ..
 
 echo "---------------------------------------------"
@@ -46,8 +50,9 @@ jhipster --no-insight --skip-checks --skip-install --force --with-entities
 cp ../../jhipster-automated-samples/LICENSE.txt .
 npm install
 git add .
-git commit -m "automatic project update"
+git commit -m "automatic project update for $JHIPSTER_VERSION"
 git push
+git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION
 cd ..
 
 echo "---------------------------------------------"
@@ -63,8 +68,9 @@ jhipster --no-insight --skip-checks --skip-install --force --with-entities
 cp ../../jhipster-automated-samples/LICENSE.txt .
 npm install
 git add .
-git commit -m "automatic project update"
+git commit -m "automatic project update for $JHIPSTER_VERSION"
 git push
+git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION
 cd ..
 
 echo "---------------------------------------------"
@@ -79,8 +85,9 @@ jhipster --no-insight --skip-checks --skip-install --force --with-entities
 cp ../../jhipster-automated-samples/LICENSE.txt .
 npm install
 git add .
-git commit -m "automatic project update"
+git commit -m "automatic project update for $JHIPSTER_VERSION"
 git push
+git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION
 cd ..
 
 echo "---------------------------------------------"
@@ -95,8 +102,9 @@ jhipster --no-insight --skip-checks --skip-install --force --with-entities
 cp ../../jhipster-automated-samples/LICENSE.txt .
 npm install
 git add .
-git commit -m "automatic project update"
+git commit -m "automatic project update for $JHIPSTER_VERSION"
 git push
+git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION
 cd ..
 
 echo "---------------------------------------------"
@@ -111,8 +119,9 @@ jhipster --no-insight --skip-checks --skip-install --force
 cp ../../jhipster-automated-samples/LICENSE.txt .
 npm install
 git add .
-git commit -m "automatic project update"
+git commit -m "automatic project update for $JHIPSTER_VERSION"
 git push
+git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION
 cd ..
 
 echo "---------------------------------------------"
@@ -127,8 +136,9 @@ jhipster --no-insight --skip-checks --skip-install --force
 cp ../../jhipster-automated-samples/LICENSE.txt .
 npm install
 git add .
-git commit -m "automatic project update"
+git commit -m "automatic project update for $JHIPSTER_VERSION"
 git push
+git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION
 cd ..
 
 echo "---------------------------------------------"
@@ -143,8 +153,9 @@ jhipster --no-insight --skip-checks --skip-install --force --with-entities
 cp ../../jhipster-automated-samples/LICENSE.txt .
 npm install
 git add .
-git commit -m "automatic project update"
+git commit -m "automatic project update for $JHIPSTER_VERSION"
 git push
+git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION
 cd ..
 
 echo "---------------------------------------------"
@@ -159,8 +170,9 @@ jhipster --no-insight --skip-checks --skip-install --force --with-entities
 cp ../../jhipster-automated-samples/LICENSE.txt .
 npm install
 git add .
-git commit -m "automatic project update"
+git commit -m "automatic project update for $JHIPSTER_VERSION"
 git push
+git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION
 cd ..
 
 echo "---------------------------------------------"
@@ -175,8 +187,9 @@ jhipster --no-insight --skip-checks --skip-install --force --with-entities
 cp ../../jhipster-automated-samples/LICENSE.txt .
 npm install
 git add .
-git commit -m "automatic project update"
+git commit -m "automatic project update for $JHIPSTER_VERSION"
 git push
+git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION
 cd ..
 
 echo "---------------------------------------------"
@@ -190,8 +203,9 @@ rm -rf node_modules
 jhipster --no-insight --skip-checks --skip-install --force --with-entities
 cp ../../jhipster-automated-samples/LICENSE.txt .
 git add .
-git commit -m "automatic project update"
+git commit -m "automatic project update for $JHIPSTER_VERSION"
 git push
+git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION
 cd ..
 
 echo "---------------------------------------------"
@@ -206,8 +220,9 @@ jhipster --no-insight --skip-checks --skip-install --force --with-entities
 cp ../../jhipster-automated-samples/LICENSE.txt .
 npm install
 git add .
-git commit -m "automatic project update"
+git commit -m "automatic project update for $JHIPSTER_VERSION"
 git push
+git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION
 cd ..
 
 echo "---------------------------------------------"
@@ -222,8 +237,9 @@ jhipster --no-insight --skip-checks --skip-install --force
 cp ../../jhipster-automated-samples/LICENSE.txt .
 npm install
 git add .
-git commit -m "automatic project update"
+git commit -m "automatic project update for $JHIPSTER_VERSION"
 git push
+git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION
 cd ..
 
 echo "---------------------------------------------"
@@ -238,8 +254,9 @@ jhipster --no-insight --skip-checks --skip-install --force
 cp ../../jhipster-automated-samples/LICENSE.txt .
 npm install
 git add .
-git commit -m "automatic project update"
+git commit -m "automatic project update for $JHIPSTER_VERSION"
 git push
+git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION
 cd ..
 
 echo "---------------------------------------------"
@@ -254,8 +271,9 @@ jhipster --no-insight --skip-checks --skip-install --force --with-entities
 cp ../../jhipster-automated-samples/LICENSE.txt .
 npm install
 git add .
-git commit -m "automatic project update"
+git commit -m "automatic project update for $JHIPSTER_VERSION"
 git push
+git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION
 cd ..
 
 echo "---------------------------------------------"
@@ -270,6 +288,7 @@ jhipster --no-insight --skip-checks --skip-install --force --with-entities
 cp ../../jhipster-automated-samples/LICENSE.txt .
 npm install
 git add .
-git commit -m "automatic project update"
+git commit -m "automatic project update for $JHIPSTER_VERSION"
 git push
+git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION
 cd ..
