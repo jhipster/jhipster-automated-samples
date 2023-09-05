@@ -12,13 +12,14 @@ find . -not -name ".yo-rc.json" -not -name "Dockerfile" -type f -maxdepth 1 -del
 rm .git/index
 rm -rf src
 rm -rf node_modules
-jhipster --no-insight --skip-checks --skip-install --force --with-entities
+jhipster --no-insight --skip-checks --skip-install --force
 cp ../../jhipster-automated-samples/LICENSE.txt .
-npm install
 git add .
-git commit -m "automatic project update for $JHIPSTER_VERSION"
-git push
-git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION
+git commit -m "automatic project update for $JHIPSTER_VERSION" --no-verify
+git push --no-verify || exit
+git tag --delete $JHIPSTER_VERSION || true
+git push --delete origin $JHIPSTER_VERSION || true
+git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION --no-verify || exit
 cd ..
 
 echo "---------------------------------------------"
@@ -29,13 +30,14 @@ find . -not -name ".yo-rc.json" -not -name "Dockerfile" -type f -maxdepth 1 -del
 rm .git/index
 rm -rf src
 rm -rf node_modules
-jhipster --no-insight --skip-checks --skip-install --force --with-entities
+jhipster --no-insight --skip-checks --skip-install --force
 cp ../../jhipster-automated-samples/LICENSE.txt .
-npm install
 git add .
-git commit -m "automatic project update for $JHIPSTER_VERSION"
-git push
-git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION
+git commit -m "automatic project update for $JHIPSTER_VERSION" --no-verify
+git push --no-verify || exit
+git tag --delete $JHIPSTER_VERSION || true
+git push --delete origin $JHIPSTER_VERSION || true
+git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION --no-verify || exit
 cd ..
 
 echo "---------------------------------------------"
@@ -46,13 +48,14 @@ find . -not -name ".yo-rc.json" -not -name "Dockerfile" -type f -maxdepth 1 -del
 rm .git/index
 rm -rf src
 rm -rf node_modules
-jhipster --no-insight --skip-checks --skip-install --force --with-entities
+jhipster --no-insight --skip-checks --skip-install --force
 cp ../../jhipster-automated-samples/LICENSE.txt .
-npm install
 git add .
-git commit -m "automatic project update for $JHIPSTER_VERSION"
-git push
-git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION
+git commit -m "automatic project update for $JHIPSTER_VERSION" --no-verify
+git push --no-verify || exit
+git tag --delete $JHIPSTER_VERSION || true
+git push --delete origin $JHIPSTER_VERSION || true
+git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION --no-verify || exit
 cd ..
 
 echo "---------------------------------------------"
@@ -64,13 +67,14 @@ rm .git/index
 rm -rf src
 rm -rf gradle
 rm -rf node_modules
-jhipster --no-insight --skip-checks --skip-install --force --with-entities
+jhipster --no-insight --skip-checks --skip-install --force
 cp ../../jhipster-automated-samples/LICENSE.txt .
-npm install
 git add .
-git commit -m "automatic project update for $JHIPSTER_VERSION"
-git push
-git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION
+git commit -m "automatic project update for $JHIPSTER_VERSION" --no-verify
+git push --no-verify || exit
+git tag --delete $JHIPSTER_VERSION || true
+git push --delete origin $JHIPSTER_VERSION || true
+git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION --no-verify || exit
 cd ..
 
 echo "---------------------------------------------"
@@ -81,13 +85,14 @@ find . -not -name ".yo-rc.json" -not -name "Dockerfile" -type f -maxdepth 1 -del
 rm .git/index
 rm -rf src
 rm -rf node_modules
-jhipster --no-insight --skip-checks --skip-install --force --with-entities
+jhipster --no-insight --skip-checks --skip-install --force
 cp ../../jhipster-automated-samples/LICENSE.txt .
-npm install
 git add .
-git commit -m "automatic project update for $JHIPSTER_VERSION"
-git push
-git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION
+git commit -m "automatic project update for $JHIPSTER_VERSION" --no-verify
+git push --no-verify || exit
+git tag --delete $JHIPSTER_VERSION || true
+git push --delete origin $JHIPSTER_VERSION || true
+git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION --no-verify || exit
 cd ..
 
 echo "---------------------------------------------"
@@ -98,13 +103,14 @@ find . -not -name ".yo-rc.json" -not -name "Dockerfile" -type f -maxdepth 1 -del
 rm .git/index
 rm -rf src
 rm -rf node_modules
-jhipster --no-insight --skip-checks --skip-install --force --with-entities
+jhipster --no-insight --skip-checks --skip-install --force
 cp ../../jhipster-automated-samples/LICENSE.txt .
-npm install
 git add .
-git commit -m "automatic project update for $JHIPSTER_VERSION"
-git push
-git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION
+git commit -m "automatic project update for $JHIPSTER_VERSION" --no-verify
+git push --no-verify || exit
+git tag --delete $JHIPSTER_VERSION || true
+git push --delete origin $JHIPSTER_VERSION || true
+git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION --no-verify || exit
 cd ..
 
 echo "---------------------------------------------"
@@ -117,11 +123,12 @@ rm -rf src
 rm -rf node_modules
 jhipster --no-insight --skip-checks --skip-install --force
 cp ../../jhipster-automated-samples/LICENSE.txt .
-npm install
 git add .
-git commit -m "automatic project update for $JHIPSTER_VERSION"
-git push
-git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION
+git commit -m "automatic project update for $JHIPSTER_VERSION" --no-verify
+git push --no-verify || exit
+git tag --delete $JHIPSTER_VERSION || true
+git push --delete origin $JHIPSTER_VERSION || true
+git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION --no-verify || exit
 cd ..
 
 echo "---------------------------------------------"
@@ -134,11 +141,12 @@ rm -rf src
 rm -rf node_modules
 jhipster --no-insight --skip-checks --skip-install --force
 cp ../../jhipster-automated-samples/LICENSE.txt .
-npm install
 git add .
-git commit -m "automatic project update for $JHIPSTER_VERSION"
-git push
-git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION
+git commit -m "automatic project update for $JHIPSTER_VERSION" --no-verify
+git push --no-verify || exit
+git tag --delete $JHIPSTER_VERSION || true
+git push --delete origin $JHIPSTER_VERSION || true
+git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION --no-verify || exit
 cd ..
 
 echo "---------------------------------------------"
@@ -149,13 +157,14 @@ find . -not -name ".yo-rc.json" -not -name "Dockerfile" -type f -maxdepth 1 -del
 rm .git/index
 rm -rf src
 rm -rf node_modules
-jhipster --no-insight --skip-checks --skip-install --force --with-entities
+jhipster --no-insight --skip-checks --skip-install --force
 cp ../../jhipster-automated-samples/LICENSE.txt .
-npm install
 git add .
-git commit -m "automatic project update for $JHIPSTER_VERSION"
-git push
-git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION
+git commit -m "automatic project update for $JHIPSTER_VERSION" --no-verify
+git push --no-verify || exit
+git tag --delete $JHIPSTER_VERSION || true
+git push --delete origin $JHIPSTER_VERSION || true
+git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION --no-verify || exit
 cd ..
 
 echo "---------------------------------------------"
@@ -166,13 +175,14 @@ find . -not -name ".yo-rc.json" -not -name "Dockerfile" -type f -maxdepth 1 -del
 rm .git/index
 rm -rf src
 rm -rf node_modules
-jhipster --no-insight --skip-checks --skip-install --force --with-entities
+jhipster --no-insight --skip-checks --skip-install --force
 cp ../../jhipster-automated-samples/LICENSE.txt .
-npm install
 git add .
-git commit -m "automatic project update for $JHIPSTER_VERSION"
-git push
-git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION
+git commit -m "automatic project update for $JHIPSTER_VERSION" --no-verify
+git push --no-verify || exit
+git tag --delete $JHIPSTER_VERSION || true
+git push --delete origin $JHIPSTER_VERSION || true
+git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION --no-verify || exit
 cd ..
 
 echo "---------------------------------------------"
@@ -183,13 +193,14 @@ find . -not -name ".yo-rc.json" -not -name "Dockerfile" -type f -maxdepth 1 -del
 rm .git/index
 rm -rf src
 rm -rf node_modules
-jhipster --no-insight --skip-checks --skip-install --force --with-entities
+jhipster --no-insight --skip-checks --skip-install --force
 cp ../../jhipster-automated-samples/LICENSE.txt .
-npm install
 git add .
-git commit -m "automatic project update for $JHIPSTER_VERSION"
-git push
-git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION
+git commit -m "automatic project update for $JHIPSTER_VERSION" --no-verify
+git push --no-verify || exit
+git tag --delete $JHIPSTER_VERSION || true
+git push --delete origin $JHIPSTER_VERSION || true
+git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION --no-verify || exit
 cd ..
 
 echo "---------------------------------------------"
@@ -200,12 +211,14 @@ find . -not -name ".yo-rc.json" -not -name "Dockerfile" -type f -maxdepth 1 -del
 rm .git/index
 rm -rf src
 rm -rf node_modules
-jhipster --no-insight --skip-checks --skip-install --force --with-entities
+jhipster --no-insight --skip-checks --skip-install --force
 cp ../../jhipster-automated-samples/LICENSE.txt .
 git add .
-git commit -m "automatic project update for $JHIPSTER_VERSION"
-git push
-git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION
+git commit -m "automatic project update for $JHIPSTER_VERSION" --no-verify
+git push --no-verify || exit
+git tag --delete $JHIPSTER_VERSION || true
+git push --delete origin $JHIPSTER_VERSION || true
+git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION --no-verify || exit
 cd ..
 
 echo "---------------------------------------------"
@@ -216,13 +229,14 @@ find . -not -name ".yo-rc.json" -not -name "Dockerfile" -type f -maxdepth 1 -del
 rm .git/index
 rm -rf src
 rm -rf node_modules
-jhipster --no-insight --skip-checks --skip-install --force --with-entities
+jhipster --no-insight --skip-checks --skip-install --force
 cp ../../jhipster-automated-samples/LICENSE.txt .
-npm install
 git add .
-git commit -m "automatic project update for $JHIPSTER_VERSION"
-git push
-git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION
+git commit -m "automatic project update for $JHIPSTER_VERSION" --no-verify
+git push --no-verify || exit
+git tag --delete $JHIPSTER_VERSION || true
+git push --delete origin $JHIPSTER_VERSION || true
+git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION --no-verify || exit
 cd ..
 
 echo "---------------------------------------------"
@@ -235,11 +249,12 @@ rm -rf src
 rm -rf node_modules
 jhipster --no-insight --skip-checks --skip-install --force
 cp ../../jhipster-automated-samples/LICENSE.txt .
-npm install
 git add .
-git commit -m "automatic project update for $JHIPSTER_VERSION"
-git push
-git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION
+git commit -m "automatic project update for $JHIPSTER_VERSION" --no-verify
+git push --no-verify || exit
+git tag --delete $JHIPSTER_VERSION || true
+git push --delete origin $JHIPSTER_VERSION || true
+git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION --no-verify || exit
 cd ..
 
 echo "---------------------------------------------"
@@ -252,11 +267,12 @@ rm -rf src
 rm -rf node_modules
 jhipster --no-insight --skip-checks --skip-install --force
 cp ../../jhipster-automated-samples/LICENSE.txt .
-npm install
 git add .
-git commit -m "automatic project update for $JHIPSTER_VERSION"
-git push
-git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION
+git commit -m "automatic project update for $JHIPSTER_VERSION" --no-verify
+git push --no-verify || exit
+git tag --delete $JHIPSTER_VERSION || true
+git push --delete origin $JHIPSTER_VERSION || true
+git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION --no-verify || exit
 cd ..
 
 echo "---------------------------------------------"
@@ -267,13 +283,14 @@ find . -not -name ".yo-rc.json" -not -name "Dockerfile" -type f -maxdepth 1 -del
 rm .git/index
 rm -rf src
 rm -rf node_modules
-jhipster --no-insight --skip-checks --skip-install --force --with-entities
+jhipster --no-insight --skip-checks --skip-install --force
 cp ../../jhipster-automated-samples/LICENSE.txt .
-npm install
 git add .
-git commit -m "automatic project update for $JHIPSTER_VERSION"
-git push
-git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION
+git commit -m "automatic project update for $JHIPSTER_VERSION" --no-verify
+git push --no-verify || exit
+git tag --delete $JHIPSTER_VERSION || true
+git push --delete origin $JHIPSTER_VERSION || true
+git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION --no-verify || exit
 cd ..
 
 echo "---------------------------------------------"
@@ -284,11 +301,12 @@ find . -not -name ".yo-rc.json" -not -name "Dockerfile" -type f -maxdepth 1 -del
 rm .git/index
 rm -rf src
 rm -rf node_modules
-jhipster --no-insight --skip-checks --skip-install --force --with-entities
+jhipster --no-insight --skip-checks --skip-install --force
 cp ../../jhipster-automated-samples/LICENSE.txt .
-npm install
 git add .
-git commit -m "automatic project update for $JHIPSTER_VERSION"
-git push
-git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION
+git commit -m "automatic project update for $JHIPSTER_VERSION" --no-verify
+git push --no-verify || exit
+git tag --delete $JHIPSTER_VERSION || true
+git push --delete origin $JHIPSTER_VERSION || true
+git tag $JHIPSTER_VERSION && git push origin $JHIPSTER_VERSION --no-verify || exit
 cd ..
