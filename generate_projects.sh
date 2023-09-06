@@ -37,7 +37,7 @@ for folder in "${folders[@]}"; do
         ls -al
         echo "Clean existing files and folder"
         find . -maxdepth 1 -type f ! -name ".yo-rc.json" -delete
-        find . -maxdepth 1 -type d ! -name ".git" ! -name ".jhipster" ! -name "." ! -name ".." -exec rm -rf {} \;
+        find . -maxdepth 1 -type d ! -name ".git" ! -name ".github" ! -name ".jhipster" ! -name "." ! -name ".." -exec rm -rf {} \;
         ls -al
         rm .git/index
         jhipster --no-insight --skip-checks --skip-install --force || exit
