@@ -22,9 +22,10 @@ while getopts "c" opt; do
 done
 
 echo "Starting to generate JHipster sample projects"
+echo "Please make sure to install the version to be tagged"
 cd ../samples
 
-read -p "Enter the JHipster version to tag: " JHIPSTER_VERSION
+read -p "Enter the JHipster version to tag: eg: v8.0.0: " JHIPSTER_VERSION
 
 # Iterate through each folder
 for folder in "${folders[@]}"; do
